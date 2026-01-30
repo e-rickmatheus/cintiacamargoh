@@ -1,0 +1,57 @@
+.differentiators {
+    background-color: var(--secondary-black);
+    border-top: 1px solid rgba(222, 192, 103, 0.1);
+    border-bottom: 1px solid rgba(222, 192, 103, 0.1);
+}
+
+.diff-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+}
+
+.diff-item {
+    text-align: center;
+    background-color: var(--primary-black);
+    padding: var(--spacing-md);
+    border: 1px solid rgba(222, 192, 103, 0.1);
+    border-radius: 4px;
+    transition: var(--transition-fast);
+}
+
+.diff-item:hover {
+    transform: translateY(-5px);
+    border-color: var(--gold-main);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.diff-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: rgba(222, 192, 103, 0.2);
+    display: block;
+    margin-bottom: -1rem;
+}
+
+.diff-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--text-gold);
+}
+
+.diff-item p {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+@media (max-width: 992px) {
+    .diff-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .diff-grid {
+        grid-template-columns: 1fr;
+    }
+}
