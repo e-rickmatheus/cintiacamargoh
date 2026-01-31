@@ -267,3 +267,41 @@ img {
     .diff-grid { grid-template-columns: 1fr; }
     .hero-faded-image { max-height: 45vh; }
 }
+
+/* Correção do Logotipo no Header */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text-group {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+/* Garante que o Hero tenha espaço para o Header fixo */
+.hero {
+    padding-top: 100px !important;
+}
+
+/* Estilo para os ícones dourados no Carousel */
+.area-icon i {
+    font-size: 2.5rem;
+    color: var(--brand-gold);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* Ajuste das imagens para não ficarem gigantes no mobile */
+.profile-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Correção de cores que sumiram */
+.gold { color: var(--gold-main); }
+.white-text { color: #ffffff !important; }
