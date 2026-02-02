@@ -7,22 +7,26 @@
   <title>Dra. Cíntia Camargoh</title>
   <link rel="stylesheet" href="style.css">
 
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="shortcut icon" href="favicon/favicon.ico">
   <link rel="manifest" href="site.webmanifest">
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https://*; frame-src 'self' https://www.google.com https://www.google.com.br http://googleusercontent.com;">
-  
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header">
     <div class="container header-container">
       <div class="logo">
@@ -43,80 +47,283 @@
         </ul>
       </nav>
       <div class="header-cta">
-        <a href="https://wa.me/5531971086382" class="btn btn-outline btn-sm">WhatsApp</a>
+        <a href="https://wa.me/5531971086382?text=Prezada%20Dra.%20C%C3%ADntia%2C%20gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20o%20seu%20atendimento.%20Vi%20seu%20contato%20atrav%C3%A9s%20do%20seu%20site."
+          class="btn btn-outline btn-sm">WhatsApp</a>
+        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2VV1exzU2Y2pBxnF5rZEvyWasrz475wHZmhBCjDWMHPk7azve9pRo0QBioNNyY7d96YhweRQa3"
+          target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Agendar</a>
       </div>
     </div>
   </header>
 
   <main>
+    <!-- Hero -->
     <section id="home" class="hero">
-      <div class="container">
+      <div class="hero-overlay"></div>
+      <div class="container hero-container">
         <div class="hero-grid">
-          <div class="hero-content">
+          <div class="hero-content reveal reveal-left">
             <h4 class="hero-subtitle">Direito do Trabalho & Compliance</h4>
-            <h1 class="hero-title">Soluções Jurídicas com <span class="gold">Excelência</span></h1>
-            <p class="hero-description">Segurança jurídica e atendimento humanizado em Belo Horizonte e atuação nacional.</p>
+            <h1 class="hero-title">
+              Soluções Jurídicas Reais com <span class="gold">Excelência e Ética</span>
+            </h1>
+            <p class="hero-description">
+              Atuação estratégica em Direito do Trabalho, Compliance e Direito de Família.
+              Segurança jurídica e atendimento humanizado com base em Belo Horizonte e atuação nacional.
+            </p>
             <div class="hero-btns">
-              <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+              <a href="https://wa.me/5531971086382?text=Prezada%20Dra.%20C%C3%ADntia%2C%20gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20o%20seu%20atendimento.%20Vi%20seu%20contato%20atrav%C3%A9s%20do%20seu%20site."
+                class="btn btn-primary">Fale Conosco agora</a>
+              <a href="#sobre" class="btn btn-outline">Saiba mais</a>
             </div>
           </div>
-          <div class="hero-image-container">
-            <img src="assets/hero-lady-justice.png" alt="Justiça" class="hero-faded-image">
+          <div class="hero-image-container reveal reveal-right">
+            <img src="assets/hero-lady-justice.png" alt="Lady Justice" class="hero-faded-image">
           </div>
         </div>
       </div>
     </section>
 
+    <!-- About -->
+    <section id="sobre" class="about">
+      <div class="container about-container">
+        <div class="about-grid">
+          <div class="about-image reveal reveal-left">
+            <div class="image-frame">
+              <img src="assets/cintia-portrait-new.jpg" alt="Cíntia Camargoh" class="profile-photo">
+            </div>
+          </div>
+          <div class="about-content reveal reveal-right">
+            <h2 class="section-title"><span class="white-text">Cíntia</span> Camargoh</h2>
+            <p class="lead">
+              Com 5 anos de experiência e sólida formação acadêmica, dedico minha carreira a oferecer soluções jurídicas
+              estratégicas e humanizadas.
+            </p>
+            <div class="credentials">
+              <div class="credential-item">
+                <strong>Formação:</strong> Direito pela Faculdade Dom Helder Câmara.
+              </div>
+              <div class="credential-item">
+                <strong>Pós-graduação:</strong> Mediação de Conflitos.
+              </div>
+              <div class="credential-item">
+                <strong>Especializações:</strong> Direito e Processo do Trabalho, Família, Sucessões e Trânsito.
+              </div>
+              <div class="credential-item">
+                <strong>Atuação Institucional:</strong> Membro das Comissões de Direito do Trabalho e Compliance da <a
+                  href="https://www.oabmg.org.br/Consulta/DadosInscrito/MjI2MDg1" target="_blank"
+                  rel="noopener noreferrer" class="gold-link">OAB/MG-231.840</a> (Subseção Venda Nova).
+              </div>
+            </div>
+            <p>
+              Minha atuação é pautada pela transparência, ética e pelo compromisso com a prevenção de litígios através
+              de estratégias de compliance e mediação, sempre buscando o melhor resultado para meus clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Practice Areas -->
     <section id="atuacao" class="practice-areas">
-      <div class="container">
+      <div class="container-full">
         <h2 class="section-title">Áreas de Atuação</h2>
         <div class="carousel-container">
           <div class="carousel-track">
+            <!-- Duplicated items for infinite scroll -->
+            <!-- Item 1 -->
             <div class="area-card-carousel">
-              <div class="area-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <div class="area-icon"><i data-lucide="briefcase" stroke-width="1.5" size="40" color="#dec067"></i></div>
               <h3 class="area-title">Direito do Trabalho</h3>
-              <p class="area-text">Defesa estratégica para trabalhadores e empresas.</p>
+              <p class="area-text">Atuação focada na defesa de direitos para reclamantes, com análise detalhada de
+                rescisões, horas extras e verbas devidas.</p>
+            </div>
+            <!-- Item 2 -->
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="shield-check" stroke-width="1.5" size="40" color="#dec067"></i>
+              </div>
+              <h3 class="area-title">Compliance Trabalhista</h3>
+              <p class="area-text">Consultoria preventiva para empresas, reduzindo riscos jurídicos e promovendo um
+                ambiente de trabalho ético.</p>
+            </div>
+            <!-- Item 3 -->
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="users" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Direito de Família</h3>
+              <p class="area-text">Divórcio, guarda, pensão alimentícia e sucessões (inventário e partilha) com
+                acolhimento e agilidade.</p>
+            </div>
+            <!-- Item 4 -->
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="car" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Direito de Trânsito</h3>
+              <p class="area-text">Defesa contra multas, suspensão e cassação de CNH. Proteção do seu direito de
+                dirigir.</p>
+            </div>
+            <!-- Item 5 -->
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="handshake" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Parcerias Estratégicas</h3>
+              <p class="area-text">Atuação em rede especializada nas áreas Tributária e Criminal para um suporte
+                jurídico completo.</p>
+            </div>
+
+            <!-- Duplicate for seamless scroll -->
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="briefcase" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Direito do Trabalho</h3>
+              <p class="area-text">Atuação focada na defesa de direitos para reclamantes, com análise detalhada de
+                rescisões, horas extras e verbas devidas.</p>
             </div>
             <div class="area-card-carousel">
-              <div class="area-icon"><i class="fa-solid fa-shield-halved"></i></div>
-              <h3 class="area-title">Compliance</h3>
-              <p class="area-text">Prevenção de riscos e ética corporativa.</p>
+              <div class="area-icon"><i data-lucide="shield-check" stroke-width="1.5" size="40" color="#dec067"></i>
+              </div>
+              <h3 class="area-title">Compliance Trabalhista</h3>
+              <p class="area-text">Consultoria preventiva para empresas, reduzindo riscos jurídicos e promovendo um
+                ambiente de trabalho ético.</p>
             </div>
             <div class="area-card-carousel">
-              <div class="area-icon"><i class="fa-solid fa-users"></i></div>
-              <h3 class="area-title">Família</h3>
-              <p class="area-text">Divórcio, guarda e inventários com acolhimento.</p>
+              <div class="area-icon"><i data-lucide="users" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Direito de Família</h3>
+              <p class="area-text">Divórcio, guarda, pensão alimentícia e sucessões (inventário e partilha) com
+                acolhimento e agilidade.</p>
+            </div>
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="car" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Direito de Trânsito</h3>
+              <p class="area-text">Defesa contra multas, suspensão e cassação de CNH. Proteção do seu direito de
+                dirigir.</p>
+            </div>
+            <div class="area-card-carousel">
+              <div class="area-icon"><i data-lucide="handshake" stroke-width="1.5" size="40" color="#dec067"></i></div>
+              <h3 class="area-title">Parcerias Estratégicas</h3>
+              <p class="area-text">Atuação em rede especializada nas áreas Tributária e Criminal para um suporte
+                jurídico completo.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Differentiators -->
+    <section class="differentiators">
+      <div class="container">
+        <div class="diff-grid">
+          <div class="diff-item reveal">
+            <span class="diff-number">01</span>
+            <h3>Clareza Jurídica</h3>
+            <p>Tradução do "juridiquês" para uma linguagem simples e acessível.</p>
+          </div>
+          <div class="diff-item reveal">
+            <span class="diff-number">02</span>
+            <h3>Foco Preventivo</h3>
+            <p>Estratégias voltadas para evitar conflitos e proteger seu patrimônio.</p>
+          </div>
+          <div class="diff-item reveal">
+            <span class="diff-number">03</span>
+            <h3>Atendimento Humanizado</h3>
+            <p>Escuta ativa e acompanhamento próximo em cada etapa do processo.</p>
+          </div>
+          <div class="diff-item reveal">
+            <span class="diff-number">04</span>
+            <h3>Excelência Técnica</h3>
+            <p>Atualização constante e rigor profissional reconhecido institucionalmente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
     <section id="contato" class="contact">
       <div class="container">
-        <h2 class="section-title">Contato</h2>
+        <h2 class="section-title">Entre em Contato</h2>
         <div class="contact-grid">
-          <div class="contact-links">
-            <a href="https://wa.me/5531971086382" class="contact-link-card">
-              <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span>
-              <div><strong>WhatsApp</strong><p>(31) 9.7108-6382</p></div>
-            </a>
-            <a href="mailto:cintiacamargoh39.adv@gmail.com" class="contact-link-card">
-              <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
-              <div><strong>E-mail</strong><p>cintiacamargoh39.adv@gmail.com</p></div>
-            </a>
+          <div class="contact-info reveal reveal-left">
+            <h3>Informações de Contato</h3>
+            <p>Estamos prontos para oferecer a melhor orientação jurídica para o seu caso.</p>
+
+            <div class="contact-links">
+              <a href="https://wa.me/5531971086382?text=Prezada%20Dra.%20C%C3%ADntia%2C%20gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20o%20seu%20atendimento.%20Vi%20seu%20contato%20atrav%C3%A9s%20do%20seu%20site."
+                target="_blank" rel="noopener noreferrer" class="contact-link-card">
+                <span class="contact-icon">
+                  <i data-lucide="message-circle" stroke-width="1.5" size="24" color="#dec067"></i>
+                </span>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <p>(31) 9.7108-6382</p>
+                </div>
+              </a>
+
+              <a href="https://www.google.com/maps/search/?api=1&query=R.+da+Bahia,+1148+-+Centro,+Belo+Horizonte+-+MG"
+                target="_blank" rel="noopener noreferrer" class="contact-link-card">
+                <span class="contact-icon">
+                  <i data-lucide="map-pin" stroke-width="1.5" size="24" color="#dec067"></i>
+                </span>
+                <div>
+                  <strong>Endereço</strong>
+                  <p>R. da Bahia, 1148 - Centro<br>Belo Horizonte - MG</p>
+                </div>
+              </a>
+
+              <a href="mailto:cintiacamargoh39.adv@gmail.com" class="contact-link-card">
+                <span class="contact-icon">
+                  <i data-lucide="mail" stroke-width="1.5" size="24" color="#dec067"></i>
+                </span>
+                <div>
+                  <strong>E-mail</strong>
+                  <p>cintiacamargoh39.adv@gmail.com</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="cta-box">
+              <p>Agende uma consulta para uma análise estratégica do seu caso.</p>
+              <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2VV1exzU2Y2pBxnF5rZEvyWasrz475wHZmhBCjDWMHPk7azve9pRo0QBioNNyY7d96YhweRQa3"
+                target="_blank" rel="noopener noreferrer" class="btn btn-primary">Agendar Consulta</a>
+            </div>
+          </div>
+
+          <div class="contact-map reveal reveal-right">
+            <iframe
+              src="https://maps.google.com/maps?q=R.%20da%20Bahia,%201148%20-%20Centro,%20Belo%20Horizonte%20-%20MG&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="100%" style="border:0; min-height: 400px; border-radius: 4px;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa R. da Bahia, 1148"></iframe>
           </div>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p>© 2026 Cíntia Camargoh. OAB/MG-231.840</p>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-wrapper" style="justify-content: flex-start; margin-bottom: 1rem;">
+            <span class="logo-icon logo-icon-sm"></span>
+            <span class="logo-text"><span class="white-text">Cíntia</span> <span class="gold">Camargoh</span></span>
+          </div>
+          <p class="white-text">Advogada • <a href="https://www.oabmg.org.br/Consulta/DadosInscrito/MjI2MDg1"
+              target="_blank" rel="noopener noreferrer" class="oab-link">OAB/MG-231.840</a></p>
+        </div>
+        <div class="footer-info">
+          <p>© 2026 Cíntia Camargoh. Todos os direitos reservados.</p>
+          <p class="developer-credit">
+            Feito por <a href="https://www.mathrick.com.br/" target="_blank" rel="noopener noreferrer">MATHRICK LAB</a>
+          </p>
+          <p class="legal-disclaimer">
+            Este site tem caráter meramente informativo e institucional, em conformidade com o Código de Ética e
+            Disciplina da OAB.
+            Nenhum conteúdo aqui exposto constitui promessa de resultado jurídico.
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
+
 </html>
